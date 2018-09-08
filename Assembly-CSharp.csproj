@@ -56,8 +56,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Energy.cs" />
-    <Compile Include="Assets\Tiempo.cs" />
+    <Compile Include="Assets\Scripts\CameraScript.cs" />
+    <Compile Include="Assets\Scripts\EnergyScript.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/jesus_000/Desktop/La Ponti Mijo/2018-2/Modelado y simulación/Proyecto/SimuSolar/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

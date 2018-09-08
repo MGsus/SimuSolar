@@ -2,20 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe4b0e7-6cf2-4a10-8f8b-e25e57287d7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SimuSolar/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SimuSolar/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SimuSolar/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SimuSolar/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Energy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NewBehaviourScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Energy.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiempo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiempo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimuSolar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimuSolar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Energy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Energy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PisoPanel.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PisoPanel.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PisoVacio.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PisoVacio.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiempo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiempo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/panelTextura.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/panelTextura.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/51/514d32bc35556df42b32ca59f81a60de" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/51/514d32bc35556df42b32ca59f81a60de" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/e2/e25432753649cde418c4af1479ac2263" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e2/e25432753649cde418c4af1479ac2263" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/e2/e25432753649cde418c4af1479ac2263.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e2/e25432753649cde418c4af1479ac2263.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/0a/0aba731d55e73ca408eda79ed326e57f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0a/0aba731d55e73ca408eda79ed326e57f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/51/514d32bc35556df42b32ca59f81a60de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/51/514d32bc35556df42b32ca59f81a60de.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/73/73f483af0820e7949811ea42f96aeda6" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/73/73f483af0820e7949811ea42f96aeda6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c9/c9a0276622c07324ba0bb3c890fab703" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c9/c9a0276622c07324ba0bb3c890fab703" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e2/e25432753649cde418c4af1479ac2263" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e2/e25432753649cde418c4af1479ac2263.info" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-323ba72471c2ce147a4b2e446b851c9a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-36c3f4bf1464fe047958f48922e5c42a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-402243c5153cc634c86c5ab44c627a7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-476f2d025e3103040914d8676cbce7d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-59118eb7c5fc62045b5578ead317265a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-935d45987daf9444794bb4909840cee9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a2557b426d857364dbe24bb0e0b151b6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a609111e90e8cad4bada15ee4ada7b41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c51a20b7958d35644bdec3d5c215f9e3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,67 +50,40 @@
     <session id="963260561">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="1" />
+          <entry key="cs" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="1" />
+          <entry key="C#" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="83" />
+          <entry key="cs" value="96" />
+          <entry key="txt" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="83" />
+          <entry key="C#" value="96" />
+          <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Tiempo.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding>
-                <marker date="1536350955467" expanded="true" signature="6:66" ph="..." />
-                <marker date="1536350955467" expanded="true" signature="104:312" ph="{...}" />
-                <marker date="1536350955467" expanded="true" signature="192:218" ph="{...}" />
-                <marker date="1536350955467" expanded="true" signature="273:310" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Energy.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-              <folding>
-                <marker date="1536351397092" expanded="false" signature="6:78" ph="..." />
-                <marker date="1536351397092" expanded="true" signature="116:237" ph="{...}" />
-                <marker date="1536351397092" expanded="true" signature="166:173" ph="{...}" />
-                <marker date="1536351397092" expanded="true" signature="228:235" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,6 +97,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Tiempo.cs" />
         <option value="$PROJECT_DIR$/Assets/Energy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnergyScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" />
       </list>
     </option>
   </component>
@@ -121,9 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
@@ -137,6 +132,9 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,6 +142,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/jesus_000/Desktop/La Ponti Mijo/2018-2/Modelado y simulación/Proyecto/SimuSolar/Assets/Tiempo.cs&#10;Energ&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
@@ -185,11 +184,13 @@
       <option name="presentableId" value="Default" />
       <updated>1536349977129</updated>
       <workItem from="1536349999139" duration="1609000" />
+      <workItem from="1536351663435" duration="352000" />
+      <workItem from="1536378648594" duration="213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1609000" />
+    <option name="totallyTimeSpent" value="1961000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -203,17 +204,9 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.19742814" />
       <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.24962178" />
-      <window_info anchor="bottom" id="NuGet" weight="0.3295082" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3295082" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -221,12 +214,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Unity" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,8 +235,38 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Reorganize Project Folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganize Project Folders" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -263,8 +294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Energy.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="280">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <marker date="1536351397092" expanded="false" signature="6:78" ph="..." />
             <marker date="1536351397092" expanded="true" signature="116:237" ph="{...}" />

@@ -1016,11 +1016,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.5
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1042,13 +1042,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.08852133, y: 0.33036605, z: 0.2432104, w: 0.9076734}
-  m_LocalPosition: {x: 4.89, y: 5.5, z: -10}
+  m_LocalRotation: {x: 0.3213938, y: 0.3213938, z: -0.116977744, w: 0.8830223}
+  m_LocalPosition: {x: -0.36, y: 5.61, z: -4.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 40, z: 30}
+  m_LocalEulerAnglesHint: {x: 40, y: 40, z: 0}
 --- !u!1 &606067064
 GameObject:
   m_ObjectHideFlags: 0
@@ -1737,7 +1737,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 939508569}
-  - component: {fileID: 939508570}
   m_Layer: 0
   m_Name: Consumo
   m_TagString: Untagged
@@ -1758,28 +1757,6 @@ Transform:
   m_Father: {fileID: 1276248992}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &939508570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 939508568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 514d32bc35556df42b32ca59f81a60de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Paneles:
-  - {fileID: 281212827}
-  - {fileID: 131955929}
-  - {fileID: 883960516}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &959651597
 GameObject:
   m_ObjectHideFlags: 0
