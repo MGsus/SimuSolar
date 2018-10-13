@@ -12,12 +12,13 @@
     <session id="963260561">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -48,12 +49,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MeshTriangle.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
               <folding>
                 <marker date="1536472942699" expanded="true" signature="62:3236" ph="{...}" />
                 <marker date="1536472942699" expanded="true" signature="361:3163" ph="{...}" />
@@ -215,6 +216,7 @@
       <workItem from="1536378648594" duration="614000" />
       <workItem from="1536426156752" duration="2920000" />
       <workItem from="1536431279619" duration="11838000" />
+      <workItem from="1539312516789" duration="157000" />
     </task>
     <task id="LOCAL-00001" summary="Reorganize Project Folders">
       <created>1536378872672</created>
@@ -234,7 +236,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17333000" />
+    <option name="totallyTimeSpent" value="17490000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,9 +248,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.1603631" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.16263238" />
       <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -260,7 +262,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32923076" />
       <window_info anchor="bottom" id="Unity" order="10" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
@@ -334,15 +336,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriangleMesh.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnergyScript.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MeshTriangle.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="204">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
           <folding>
-            <marker date="1536472941085" expanded="true" signature="6:78" ph="..." />
-            <marker date="1536472941085" expanded="true" signature="122:243" ph="{...}" />
-            <marker date="1536472941085" expanded="true" signature="172:179" ph="{...}" />
-            <marker date="1536472941085" expanded="true" signature="234:241" ph="{...}" />
+            <marker date="1536472942699" expanded="true" signature="62:3236" ph="{...}" />
+            <marker date="1536472942699" expanded="true" signature="361:3163" ph="{...}" />
+            <marker date="1536472942699" expanded="true" signature="502:1524" ph="{...}" />
+            <marker date="1536472942699" expanded="true" signature="668:697" ph="/* 3 ... */" />
+            <marker date="1536472942699" expanded="true" signature="837:866" ph="/* 7 ... */" />
+            <marker date="1536472942699" expanded="true" signature="1006:1037" ph="/* 11 ... */" />
+            <marker date="1536472942699" expanded="true" signature="1163:1192" ph="/* 15 ... */" />
+            <marker date="1536472942699" expanded="true" signature="1315:1347" ph="/* 19 ... */" />
+            <marker date="1536472942699" expanded="true" signature="1569:2047" ph="{...}" />
+            <marker date="1536472942699" expanded="true" signature="1657:1701" ph="/* Second triangle ... */" />
+            <marker date="1536472942699" expanded="true" signature="2090:2997" ph="{...}" />
+            <marker date="1536472942699" expanded="true" signature="3224:3234" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -360,23 +370,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MeshTriangle.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnergyScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+        <state relative-caret-position="140">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
-            <marker date="1536472942699" expanded="true" signature="62:3236" ph="{...}" />
-            <marker date="1536472942699" expanded="true" signature="361:3163" ph="{...}" />
-            <marker date="1536472942699" expanded="true" signature="502:1524" ph="{...}" />
-            <marker date="1536472942699" expanded="true" signature="668:697" ph="/* 3 ... */" />
-            <marker date="1536472942699" expanded="true" signature="837:866" ph="/* 7 ... */" />
-            <marker date="1536472942699" expanded="true" signature="1006:1037" ph="/* 11 ... */" />
-            <marker date="1536472942699" expanded="true" signature="1163:1192" ph="/* 15 ... */" />
-            <marker date="1536472942699" expanded="true" signature="1315:1347" ph="/* 19 ... */" />
-            <marker date="1536472942699" expanded="true" signature="1569:2047" ph="{...}" />
-            <marker date="1536472942699" expanded="true" signature="1657:1701" ph="/* Second triangle ... */" />
-            <marker date="1536472942699" expanded="true" signature="2090:2997" ph="{...}" />
-            <marker date="1536472942699" expanded="true" signature="3224:3234" ph="{...}" />
+            <marker date="1536472941085" expanded="true" signature="6:78" ph="..." />
+            <marker date="1536472941085" expanded="true" signature="122:243" ph="{...}" />
+            <marker date="1536472941085" expanded="true" signature="172:179" ph="{...}" />
+            <marker date="1536472941085" expanded="true" signature="234:241" ph="{...}" />
           </folding>
         </state>
       </provider>
