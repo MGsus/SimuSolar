@@ -43,7 +43,8 @@
         <e p="Scripts" t="Include">
           <e p="CameraScript.cs" t="Include" />
           <e p="EnergyScript.cs" t="Include" />
-          <e p="MeshTriangle.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="Loader.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

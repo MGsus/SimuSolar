@@ -65,7 +65,9 @@
     <Compile Include="Assets\ProCore\ProGrids\MonoBehaviour\pg_IgnoreSnap.cs" />
     <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\EnergyScript.cs" />
-    <Compile Include="Assets\Scripts\MeshTriangle.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Loader.cs" />
+    <Compile Include="Assets\Scripts\PanelController.cs" />
     <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
     <None Include="Assets\ProCore\ProGrids\About\pc_AboutEntry_ProGrids.txt" />
     <None Include="Assets\ProCore\ProGrids\About\changelog.txt" />

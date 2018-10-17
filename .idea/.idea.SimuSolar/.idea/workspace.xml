@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbe4b0e7-6cf2-4a10-8f8b-e25e57287d7b" name="Default Changelist" comment="" />
+    <list default="true" id="fbe4b0e7-6cf2-4a10-8f8b-e25e57287d7b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MeshTriangle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MeshTriangle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c3/c33ec7d631b21084b8b82e20a86ac737" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c3/c33ec7d631b21084b8b82e20a86ac737.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/UnityLockfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,67 +26,45 @@
     <session id="963260561">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.56" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.56" value="2" />
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="4" />
+          <entry key="cs" value="6" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="4" />
+          <entry key="C#" value="6" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3399" />
+          <entry key="cs" value="4011" />
           <entry key="txt" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3399" />
+          <entry key="C#" value="4011" />
           <entry key="PLAIN_TEXT" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MeshTriangle.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-              <folding>
-                <marker date="1536472942699" expanded="true" signature="62:3236" ph="{...}" />
-                <marker date="1536472942699" expanded="true" signature="361:3163" ph="{...}" />
-                <marker date="1536472942699" expanded="true" signature="502:1524" ph="{...}" />
-                <marker date="1536472942699" expanded="true" signature="668:697" ph="/* 3 ... */" />
-                <marker date="1536472942699" expanded="true" signature="837:866" ph="/* 7 ... */" />
-                <marker date="1536472942699" expanded="true" signature="1006:1037" ph="/* 11 ... */" />
-                <marker date="1536472942699" expanded="true" signature="1163:1192" ph="/* 15 ... */" />
-                <marker date="1536472942699" expanded="true" signature="1315:1347" ph="/* 19 ... */" />
-                <marker date="1536472942699" expanded="true" signature="1569:2047" ph="{...}" />
-                <marker date="1536472942699" expanded="true" signature="1657:1701" ph="/* Second triangle ... */" />
-                <marker date="1536472942699" expanded="true" signature="2090:2997" ph="{...}" />
-                <marker date="1536472942699" expanded="true" signature="3224:3234" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,13 +80,45 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Loader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding>
+                <marker date="1539700903781" expanded="true" signature="55:298" ph="{...}" />
+                <marker date="1539700903781" expanded="true" signature="118:296" ph="{...}" />
+                <marker date="1539700903781" expanded="true" signature="166:224" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <marker date="1539700668726" expanded="true" signature="6:113" ph="..." />
+                <marker date="1539700668726" expanded="true" signature="155:822" ph="{...}" />
+                <marker date="1539700668726" expanded="true" signature="419:440" ph="{...}" />
+                <marker date="1539700668726" expanded="true" signature="466:728" ph="{...}" />
+                <marker date="1539700668726" expanded="true" signature="502:551" ph="{...}" />
+                <marker date="1539700668726" expanded="true" signature="577:630" ph="{...}" />
+                <marker date="1539700668726" expanded="true" signature="791:820" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnergyScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="100">
               <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding>
-                <marker date="1536472941085" expanded="true" signature="6:78" ph="..." />
+                <marker date="1536472941085" expanded="false" signature="6:78" ph="..." />
                 <marker date="1536472941085" expanded="true" signature="122:243" ph="{...}" />
                 <marker date="1536472941085" expanded="true" signature="172:179" ph="{...}" />
                 <marker date="1536472941085" expanded="true" signature="234:241" ph="{...}" />
@@ -111,7 +135,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnergyScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MeshTriangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Loader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -122,6 +147,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriangleMesh.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MeshTriangle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Loader.cs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Loader.cs" />
       </list>
     </option>
   </component>
@@ -142,6 +170,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -149,20 +181,11 @@
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
             </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="true" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,7 +194,7 @@
     <property name="SearchEverywhereHistoryKey" value="indent&#9;null&#9;null&#10;Energ&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -217,6 +240,7 @@
       <workItem from="1536426156752" duration="2920000" />
       <workItem from="1536431279619" duration="11838000" />
       <workItem from="1539312516789" duration="157000" />
+      <workItem from="1539698357453" duration="2855000" />
     </task>
     <task id="LOCAL-00001" summary="Reorganize Project Folders">
       <created>1536378872672</created>
@@ -236,7 +260,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17490000" />
+    <option name="totallyTimeSpent" value="20345000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,7 +274,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.16263238" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.16490166" />
       <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -262,11 +286,11 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3276923" />
       <window_info anchor="bottom" id="Unity" order="10" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49924356" weight="0.32923076" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -338,22 +362,15 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriangleMesh.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MeshTriangle.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="960">
           <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding>
-            <marker date="1536472942699" expanded="true" signature="62:3236" ph="{...}" />
-            <marker date="1536472942699" expanded="true" signature="361:3163" ph="{...}" />
-            <marker date="1536472942699" expanded="true" signature="502:1524" ph="{...}" />
-            <marker date="1536472942699" expanded="true" signature="668:697" ph="/* 3 ... */" />
-            <marker date="1536472942699" expanded="true" signature="837:866" ph="/* 7 ... */" />
-            <marker date="1536472942699" expanded="true" signature="1006:1037" ph="/* 11 ... */" />
-            <marker date="1536472942699" expanded="true" signature="1163:1192" ph="/* 15 ... */" />
-            <marker date="1536472942699" expanded="true" signature="1315:1347" ph="/* 19 ... */" />
-            <marker date="1536472942699" expanded="true" signature="1569:2047" ph="{...}" />
-            <marker date="1536472942699" expanded="true" signature="1657:1701" ph="/* Second triangle ... */" />
-            <marker date="1536472942699" expanded="true" signature="2090:2997" ph="{...}" />
-            <marker date="1536472942699" expanded="true" signature="3224:3234" ph="{...}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Loader.cs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -372,13 +389,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnergyScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="100">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
-            <marker date="1536472941085" expanded="true" signature="6:78" ph="..." />
+            <marker date="1536472941085" expanded="false" signature="6:78" ph="..." />
             <marker date="1536472941085" expanded="true" signature="122:243" ph="{...}" />
             <marker date="1536472941085" expanded="true" signature="172:179" ph="{...}" />
             <marker date="1536472941085" expanded="true" signature="234:241" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <marker date="1539700668726" expanded="true" signature="6:113" ph="..." />
+            <marker date="1539700668726" expanded="true" signature="155:822" ph="{...}" />
+            <marker date="1539700668726" expanded="true" signature="419:440" ph="{...}" />
+            <marker date="1539700668726" expanded="true" signature="466:728" ph="{...}" />
+            <marker date="1539700668726" expanded="true" signature="502:551" ph="{...}" />
+            <marker date="1539700668726" expanded="true" signature="577:630" ph="{...}" />
+            <marker date="1539700668726" expanded="true" signature="791:820" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Loader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <marker date="1539700903781" expanded="true" signature="55:298" ph="{...}" />
+            <marker date="1539700903781" expanded="true" signature="118:296" ph="{...}" />
+            <marker date="1539700903781" expanded="true" signature="166:224" ph="{...}" />
           </folding>
         </state>
       </provider>
