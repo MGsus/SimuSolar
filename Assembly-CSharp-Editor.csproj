@@ -56,6 +56,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DataDiagram\Editor\DD_Menu.cs" />
     <Compile Include="Assets\ProCore\ProGrids\About\Editor\pg_AboutWindow.cs" />
     <Compile Include="Assets\ProCore\ProGrids\Editor\pg_Editor.cs" />
     <Compile Include="Assets\ProCore\ProGrids\Editor\pg_GridRenderer.cs" />

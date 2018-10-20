@@ -56,6 +56,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DataDiagram\Example\Sample.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_CoordinateAxis.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_DataDiagram.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_DragBar.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_DrawGraphic.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_LineButton.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_LineButtonsContent.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_Lines.cs" />
+    <Compile Include="Assets\DataDiagram\Script\DD_ZoomButton.cs" />
     <Compile Include="Assets\ProCore\ProGrids\Classes\pg_Constant.cs" />
     <Compile Include="Assets\ProCore\ProGrids\Classes\pg_Enum.cs" />
     <Compile Include="Assets\ProCore\ProGrids\Classes\pg_IconUtility.cs" />
@@ -64,9 +73,13 @@
     <Compile Include="Assets\ProCore\ProGrids\Classes\pg_Util.cs" />
     <Compile Include="Assets\ProCore\ProGrids\MonoBehaviour\pg_IgnoreSnap.cs" />
     <Compile Include="Assets\Scripts\CameraScript.cs" />
-    <Compile Include="Assets\Scripts\EnergyScript.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Loader.cs" />
+    <Compile Include="Assets\Scripts\MouseController.cs" />
+    <Compile Include="Assets\Scripts\PaneGenerator.cs" />
+    <Compile Include="Assets\Scripts\SunScript.cs" />
+    <Compile Include="Assets\Scripts\UI\ResourcesScript.cs" />
+    <Compile Include="Assets\Scripts\UI\TooltipText.cs" />
     <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

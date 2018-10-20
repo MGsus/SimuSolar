@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Juego
+  - Sun
+  - Shop_Pane
+  - Panel
+  - Mouse_Controller
   layers:
   - Default
   - TransparentFX
