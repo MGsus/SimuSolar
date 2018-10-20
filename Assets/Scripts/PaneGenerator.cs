@@ -9,46 +9,45 @@ public class PaneGenerator : MonoBehaviour
 	public GameObject _pane;
 	private GameObject _newPane;
 	private GameManager _manager;
-	private Camera _camera;
 	private Vector3 _currPosition;
 	private Vector3 _lastFramePosition;
 
 	// Use this for initialization
-	void Start()
+	private void Start()
 	{
-		_camera = Camera.main;
 		_manager = GameObject.FindGameObjectWithTag("Juego").GetComponent(typeof(GameManager)) as GameManager;
 	}
 
 	// Update is called once per frame
-	void Update()
+	private void Update()
 	{
-	}
-
-	private void MoveCurrentObjectToMouse()
-	{
-		_currPosition = _camera.ScreenToWorldPoint(Input.mousePosition + new Vector3(0, 0, 10f));
-		_newPane.transform.position = _currPosition;
-		if (Input.GetMouseButtonDown(0))
-		{
-			var diff = _lastFramePosition - _currPosition;
-			_newPane.transform.Translate(diff);
-		}
-
-		_lastFramePosition = _currPosition;
 	}
 
 	private void ReleaseIfClicked()
 	{
-		if (Input.GetMouseButtonDown(1))
-		{
-			_newPane = null;
-		}
+		if (Input.GetMouseButtonDown(2)) _newPane = null;
 	}
-	
+
 	public void AddAgent()
 	{
 		_newPane = Instantiate(_pane);
 		MoveCurrentObjectToMouse();
+		ReleaseIfClicked();
+	}
+
+	private void MoveCurrentObjectToMouse()
+	{
+		_currPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition + new Vector3(0, 0, 5.0f));
+		_newPane.transform.position = _currPosition;
+		
+		
+//		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+//		RaycastHit hit;
+//		if (Physics.Raycast(ray,out hit))
+//		{
+//			var nPos = hit.point + new Vector3(12f, 0, -6f);
+//			Debug.Log("Entra pos ground: "+hit.point);
+//			_newPane.transform.position = nPos;
+//		}
 	}
 }
