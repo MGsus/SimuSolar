@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\SunScript.cs" />
     <Compile Include="Assets\Scripts\UI\ResourcesScript.cs" />
     <Compile Include="Assets\Scripts\UI\TooltipText.cs" />
+    <Compile Include="Assets\Scripts\UI\UiManager.cs" />
     <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

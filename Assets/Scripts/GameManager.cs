@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,11 +9,11 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance = null;
     private string _scene;
     private int _energy = 0;
-    private int _money = 0;
+    private int _money = 5000000;
     private float _time = 0;
 
     // 0 = null ; 1 = running ; 2 = Finished
-    private int _gameState = 0;
+    [SerializeField] private int _gameState = 0;
 
     public float _Time
     {
@@ -23,7 +24,7 @@ public class GameManager : MonoBehaviour
     public int _Money
     {
         get { return _money; }
-        set { _money = value; }
+        set { _money += value; }
     }
 
     // Use this for initialization
@@ -36,18 +37,25 @@ public class GameManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-        }else if (Instance != this)
+        }
+        else if (Instance != this)
         {
             Destroy(gameObject);
+            _gameState = 2;
         }
+
         DontDestroyOnLoad(gameObject);
         _scene = SceneManager.GetActiveScene().name;
+        _gameState = 1;
     }
 
     // Update is called once per frame
     void Update()
     {
         _time += Time.deltaTime;
-        _money++;
+        if (Math.Abs(_time - 1296000) < 0.01|| _time == 0)
+        {
+            _money += 5000000;
+        }
     }
 }

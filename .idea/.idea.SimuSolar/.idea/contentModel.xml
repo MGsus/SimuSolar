@@ -68,6 +68,7 @@
           <e p="UI" t="Include">
             <e p="ResourcesScript.cs" t="Include" />
             <e p="TooltipText.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

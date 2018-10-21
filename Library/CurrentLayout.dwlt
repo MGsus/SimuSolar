@@ -107,10 +107,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 713, y: 471}
+  m_MaxSize: {x: 18008, y: 14021}
   vertical: 0
-  controlID: 579
+  controlID: 26
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 342}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 580
+  controlID: 27
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -181,12 +181,12 @@ MonoBehaviour:
     height: 259
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -207,10 +207,10 @@ MonoBehaviour:
     y: 0
     width: 234
     height: 635
-  m_MinSize: {x: 234, y: 492}
-  m_MaxSize: {x: 10004, y: 14042}
+  m_MinSize: {x: 234, y: 471}
+  m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 555
+  controlID: 132
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -229,8 +229,8 @@ MonoBehaviour:
     y: 0
     width: 234
     height: 364
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -335,7 +335,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -428,13 +428,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.21605924, y: 0.29757145, z: -0.069320805, w: 0.92735285}
+    m_Target: {x: 0.1279651, y: 0.03569939, z: -0.004598595, w: 0.99113584}
     speed: 2
-    m_Value: {x: 0.21605718, y: 0.29756862, z: -0.06932014, w: 0.927344}
+    m_Value: {x: 0.12796377, y: 0.03569902, z: -0.0045985477, w: 0.9911256}
   m_Size:
-    m_Target: 13.76723
+    m_Target: 12.429441
     speed: 2
-    m_Value: 13.76723
+    m_Value: 12.429441
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -523,9 +523,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 480f0000
-    m_LastClickedID: 3912
-    m_ExpandedIDs: dcfbffff000000009c0d0000ba0d0000780e0000a80e0000f80e0000480f0000
+    m_SelectedIDs: 720e0000
+    m_LastClickedID: 3698
+    m_ExpandedIDs: e4fbfffff4ffffff00000000980d0000720e0000a20e0000440f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -586,11 +586,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts/UI
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts/UI
   m_LastFoldersGridSize: 16
   m_LastProjectPath: "C:\\Users\\jesus_000\\Desktop\\La Ponti Mijo\\2018-2\\Modelado
     y simulaci\xF3n\\Proyecto\\SimuSolar"
@@ -598,9 +598,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 75}
-    m_SelectedIDs: 8a0a0000
-    m_LastClickedID: 2698
-    m_ExpandedIDs: 00000000b2090000f0090000140a0000480a0000a20b00004e0d000000ca9a3b
+    m_SelectedIDs: d8090000
+    m_LastClickedID: 2520
+    m_ExpandedIDs: 00000000ac090000ea0900000e0a0000420a00009c0b0000480d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -628,7 +628,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b2090000f0090000480a0000a20b00004e0d000000ca9a3b
+    m_ExpandedIDs: 00000000ac090000ea0900000e0a0000420a00009c0b0000480d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -697,7 +697,7 @@ MonoBehaviour:
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Inspector
+    m_Text: Debug
     m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
