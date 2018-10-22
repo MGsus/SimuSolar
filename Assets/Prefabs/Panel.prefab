@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 65807454926236650}
   - component: {fileID: 54969745044456298}
   - component: {fileID: 114660758501392994}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Panel
   m_TagString: Panel
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
+  m_StitchLightmapSeams: 1
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -124,4 +124,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e5f5f2c0c5c848498f6fc7754bf9def, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SolarPane: {fileID: 0}

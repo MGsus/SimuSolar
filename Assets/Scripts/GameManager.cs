@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         // Game Time
-        _time += Time.deltaTime*10;
+        _time += Time.deltaTime*15;
 
         // Money per Hour
         _timeInHh = (int) (_time / 3600) % 24;
