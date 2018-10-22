@@ -8,6 +8,32 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CodeMonkey" t="Include">
+          <e p="Assets.cs" t="Include" />
+          <e p="CMDebug.cs" t="Include" />
+          <e p="MonoBehaviours" t="Include">
+            <e p="CameraFollow.cs" t="Include" />
+            <e p="CameraFollowSetup.cs" t="Include" />
+            <e p="ComponentActions.cs" t="Include" />
+            <e p="PositionRendererSorter.cs" t="Include" />
+          </e>
+          <e p="README.txt" t="Include" />
+          <e p="Utils" t="Include">
+            <e p="Button_Sprite.cs" t="Include" />
+            <e p="Button_UI.cs" t="Include" />
+            <e p="FunctionPeriodic.cs" t="Include" />
+            <e p="FunctionTimer.cs" t="Include" />
+            <e p="FunctionUpdater.cs" t="Include" />
+            <e p="UI_Bar.cs" t="Include" />
+            <e p="UI_BarMultiple.cs" t="Include" />
+            <e p="UI_Sprite.cs" t="Include" />
+            <e p="UI_TextComplex.cs" t="Include" />
+            <e p="UtilsClass.cs" t="Include" />
+            <e p="World_Bar.cs" t="Include" />
+            <e p="World_Mesh.cs" t="Include" />
+            <e p="World_Sprite.cs" t="Include" />
+          </e>
+        </e>
         <e p="DataDiagram" t="Include">
           <e p="Editor" t="Include">
             <e p="DD_Menu.cs" t="Include" />
@@ -61,6 +87,9 @@
         <e p="Scripts" t="Include">
           <e p="CameraScript.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="Graph" t="Include">
+            <e p="WindowGraph.cs" t="Include" />
+          </e>
           <e p="Loader.cs" t="Include" />
           <e p="MouseController.cs" t="Include" />
           <e p="PaneGenerator.cs" t="Include" />

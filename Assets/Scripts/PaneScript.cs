@@ -6,6 +6,7 @@ public class PaneScript : MonoBehaviour
 {
 	private Vector3 _spCenter;
 	private Vector3 _currPosition;
+	private Light _sun;
 
 	/// <summary>
 	/// OnMouseDown: Mover el Panel
@@ -29,7 +30,7 @@ public class PaneScript : MonoBehaviour
 		var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hit;
 		if (!Physics.Raycast(ray, out hit, 10f)) return;
-		transform.position = hit.point + new Vector3(0, 5.0f, 0);
+		transform.position = hit.point + new Vector3(0, 3.0f, 0);
 		transform.rotation = Quaternion.identity;
 	}
 }

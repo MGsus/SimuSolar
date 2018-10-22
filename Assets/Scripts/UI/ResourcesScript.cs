@@ -9,6 +9,7 @@ namespace UI
 	{
 		public TextMeshProUGUI _timeText;
 		public TextMeshProUGUI _moneyText;
+		public TextMeshProUGUI _dayText;
 		private GameManager _manager;
 		private int _timeInMin, _timeInHh=0, _timeInDays, _timeInSec;
 
@@ -29,10 +30,12 @@ namespace UI
 			// UIText
 			_timeText.text = "Hora: " + _timeInHh.ToString("00;F1") + ":" + _timeInMin.ToString("00;F1") + ":" +
 			                 _timeInSec.ToString("00;F1");
+			_dayText.text = "Día: "+ _timeInDays.ToString("00;F1");
+			
 
 			// Money
+			// 472.28 valor kWh
 			_moneyText.text = "Capital: " + _manager._Money.ToString("C");
-			//Debug.Log(_manager._Time);
 		}
 	}
 }
