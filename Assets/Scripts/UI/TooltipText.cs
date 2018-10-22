@@ -10,50 +10,26 @@ using UnityEngine.EventSystems;
 
 namespace UI
 {
-	public class TooltipText : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
-	{
-		private TextMeshProUGUI _myText;
-		private UiManager _uiManager;
-		
-//		private ObservableStack<Item> _items = new ObservableStack<Item>();
-//
-//		public Item _myItem
-//		{
-//			get
-//			{
-//				
-//			}
-//		}
+    public class TooltipText : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+    {
+        private TextMeshProUGUI _myText;
+        private UIManager _uiManager;
 
-//		public bool IsEmpty
-//		{
-//			get { return _myItems.Count == 0; }
-//		}
+        private void Start()
+        {
+            _uiManager = GameObject.FindGameObjectWithTag("UIManager").GetComponent(typeof(UIManager)) as UIManager;
+        }
 
-		// Use this for initialization
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            // Show tooltip
+            _uiManager.ShowToolTip();
+        }
 
-		// Update is called once per frame
-		private void Update()
-		{
-		}
-
-		public void OnPointerEnter(PointerEventData eventData)
-		{
-			//show tooltip
-//			if (!IsEmpty)
-//			{
-//				GameManager.Instance.ShowTooltip();
-//				Debug.Log("Show Tooltip");
-//			}
-
-			Debug.Log("Enter");
-		}
-
-		public void OnPointerExit(PointerEventData eventData)
-		{
-			// Hide tooltip
-//			_uiManager.Instance.HideToolTip();
-			Debug.Log("Exit");
-		}
-	}
+        public void OnPointerExit(PointerEventData eventData)
+        {
+            // Hide tooltip
+            _uiManager.HideToolTip();
+        }
+    }
 }

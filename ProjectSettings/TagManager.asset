@@ -9,6 +9,7 @@ TagManager:
   - Shop_Pane
   - Panel
   - Mouse_Controller
+  - UIManager
   layers:
   - Default
   - TransparentFX

@@ -64,6 +64,7 @@
           <e p="Loader.cs" t="Include" />
           <e p="MouseController.cs" t="Include" />
           <e p="PaneGenerator.cs" t="Include" />
+          <e p="PaneScript.cs" t="Include" />
           <e p="SunScript.cs" t="Include" />
           <e p="UI" t="Include">
             <e p="ResourcesScript.cs" t="Include" />

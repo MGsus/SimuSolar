@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using TMPro;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ namespace UI
 		public TextMeshProUGUI _timeText;
 		public TextMeshProUGUI _moneyText;
 		private GameManager _manager;
+		private int _timeInMin, _timeInHh=0, _timeInDays, _timeInSec;
 
 		// Use this for initialization
 		void Start()
@@ -19,13 +21,17 @@ namespace UI
 		// Update is called once per frame
 		void FixedUpdate()
 		{
-			_timeText.text = "Tiempo: " + _manager._Time.ToString("##:##;F1");
-			_moneyText.text = "Capital: " + _manager._Money.ToString("C");
-			if (_manager._Time.ToString("F1") == "60")
-			{
-				_timeText.text = "Tiempo: " + _manager._Time.ToString("g2");
-			}
+			// Time
+			_timeInSec = (int) ((_manager._Time) % 60);
+			_timeInMin = (int)(_manager._Time / 0x3C) % 60;
+			_timeInHh = (int) (_manager._Time / 3600) % 24;
+			_timeInDays = (int)(_manager._Time / 86400) % 30;
+			// UIText
+			_timeText.text = "Hora: " + _timeInHh.ToString("00;F1") + ":" + _timeInMin.ToString("00;F1") + ":" +
+			                 _timeInSec.ToString("00;F1");
 
+			// Money
+			_moneyText.text = "Capital: " + _manager._Money.ToString("C");
 			//Debug.Log(_manager._Time);
 		}
 	}

@@ -5,22 +5,22 @@ using UnityEngine;
 namespace UI
 {
 	
-	public class UiManager : MonoBehaviour {
+	public class UIManager : MonoBehaviour
+	{
 
+		public static UIManager Instance = null;
 		
 		[SerializeField]
 		private GameObject _tooltip;
-		
-		// Use this for initialization
-		void Start () {
-		
+
+		private void Awake()
+		{
+			if (Instance == null)
+			{
+				Instance = this;
+			}
 		}
-	
-		// Update is called once per frame
-		void Update () {
-		
-		}
-		
+
 		public void ShowToolTip()
 		{
 			_tooltip.SetActive(true);

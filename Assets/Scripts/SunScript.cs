@@ -6,8 +6,8 @@ using UnityEngine.Experimental.GlobalIllumination;
 public class SunScript : MonoBehaviour
 {
 	private GameManager _manager;
-	private float _smooth = 1.0f;
-	private float _tetha = 0;
+	private float _smooth = 100f;
+	private float _ang;
 
 	// Use this for initialization
 	void Start()
@@ -18,8 +18,8 @@ public class SunScript : MonoBehaviour
 	// Update is called once per frame
 	void FixedUpdate()
 	{
-		_tetha = _manager._Time;
-		Quaternion target = Quaternion.Euler(_tetha, 0, 0);
-		transform.rotation = Quaternion.Slerp(transform.rotation, target,  Time.deltaTime * _smooth);
+		_ang = _manager._Time - 90;
+		Quaternion target = Quaternion.Euler(_ang, 0, 0);
+		transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * _smooth);
 	}
 }

@@ -52,8 +52,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _time += Time.deltaTime;
-        if (Math.Abs(_time - 1296000) < 0.01|| _time == 0)
+        _time += Time.deltaTime*1000;
+        if (Math.Abs(_time - 1296000) < 0.01f || Math.Abs(_time) < 0.001f)
         {
             _money += 5000000;
         }

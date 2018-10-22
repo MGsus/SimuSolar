@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23730009963996410}
   - component: {fileID: 65807454926236650}
   - component: {fileID: 54969745044456298}
+  - component: {fileID: 114660758501392994}
   m_Layer: 0
   m_Name: Panel
   m_TagString: Panel
@@ -36,8 +37,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1501213470171508}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6305961, y: 1.735256, z: -1.8796196}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.6096, y: 3.048, z: -0.60960007}
   m_LocalScale: {x: 1, y: 0.099999994, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -112,3 +113,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114660758501392994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1501213470171508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5f5f2c0c5c848498f6fc7754bf9def, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SolarPane: {fileID: 0}
