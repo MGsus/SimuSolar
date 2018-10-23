@@ -7,7 +7,6 @@ namespace UI
 	
 	public class UIManager : MonoBehaviour
 	{
-
 		public static UIManager Instance = null;
 		
 		[SerializeField]

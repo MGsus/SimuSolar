@@ -10,11 +10,11 @@ public class GameManager : MonoBehaviour
     private string _scene;
     private int _money = 5000000;
     private float _time = 0;
-    private int _consume=50;
+    private int _consume = 50;
     private int _timeInHh;
 
     // 0 = null ; 1 = running ; 2 = Finished
-    [SerializeField] private int _gameState = 0;
+    private int _gameState = 0;
 
     public float _Time
     {
@@ -36,14 +36,20 @@ public class GameManager : MonoBehaviour
 
     public List<int> LogMoney
     {
-        get { return logMoney; }
-        set { logMoney = value; }
+        get { return _logMoney; }
+        set { _logMoney = value; }
     }
 
     public int HoraAct
     {
         get { return horaAct; }
         set { horaAct = value; }
+    }
+
+    public int GameState
+    {
+        get { return _gameState; }
+        set { _gameState = value; }
     }
 
     // Use this for initialization
@@ -60,39 +66,40 @@ public class GameManager : MonoBehaviour
         else if (Instance != this)
         {
             Destroy(gameObject);
-            _gameState = 2;
+            GameState = 2;
         }
 
         DontDestroyOnLoad(gameObject);
         _scene = SceneManager.GetActiveScene().name;
-        _gameState = 1;
+        GameState = 1;
     }
 
     // Update is called once per frame
     private void Update()
     {
         // Game Time
-        _time += Time.deltaTime*1000;
+        _time += Time.deltaTime * 1000;
 
         // Money per Hour
         MoneyPerHour();
     }
 
     private int horaAct = 0;
-    
-    List<int> logMoney = new List<int>();
+
+    private List<int> _logMoney = new List<int>();
+
     private void MoneyPerHour()
     {
         if (HoraAct != ((int) (_time / 3600)))
         {
             // Ingreso
             HoraAct = ((int) (_time / 3600));
-            _money += 150000;
+            _money += 550000;
             // Pérdida (50 = consumo por hora)
-            _money -= 472*50;
+            _money -= 472 * 50;
+            _logMoney.Add(_money);
         }
-        LogMoney.Add(_money);
+
         
- 
     }
 }
