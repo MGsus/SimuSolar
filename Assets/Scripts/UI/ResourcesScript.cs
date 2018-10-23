@@ -10,13 +10,16 @@ namespace UI
 		public TextMeshProUGUI _timeText;
 		public TextMeshProUGUI _moneyText;
 		public TextMeshProUGUI _dayText;
+		public TextMeshProUGUI _energyText;
 		private GameManager _manager;
+		private SunScript _sun;
 		private int _timeInMin, _timeInHh=0, _timeInDays, _timeInSec;
 
 		// Use this for initialization
 		void Start()
 		{
 			_manager = GameObject.FindGameObjectWithTag("Juego").GetComponent(typeof(GameManager)) as GameManager;
+			_sun = GameObject.Find("Sun").GetComponent(typeof(SunScript)) as SunScript;
 		}
 
 		// Update is called once per frame
@@ -32,10 +35,13 @@ namespace UI
 			                 _timeInSec.ToString("00;F1");
 			_dayText.text = "Día: "+ _timeInDays.ToString("00;F1");
 			
-
 			// Money
 			// 472.28 valor kWh
 			_moneyText.text = "Capital: " + _manager._Money.ToString("C");
+			
+			// Energy
+			_energyText.text = "Consumo Actual: " + (_manager._Consume-_sun.Energy).ToString("D")+" kW/h";
+
 		}
 	}
 }

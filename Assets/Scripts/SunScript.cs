@@ -7,8 +7,13 @@ using UnityEngine.Experimental.GlobalIllumination;
 public class SunScript : MonoBehaviour
 {
 	private GameManager _manager;
-	private float _smooth = 100f;
+	private float _smooth = 10000f;
 	private float _ang;
+	private int _energy = 0;
+	public int Energy { get; set; }
+	private int _timeOn;
+	private float _timeDelay = 0.0f;
+	
 
 	// Use this for initialization
 	void Start()
@@ -16,23 +21,38 @@ public class SunScript : MonoBehaviour
 		_manager = GameObject.FindGameObjectWithTag("Juego").GetComponent(typeof(GameManager)) as GameManager;
 	}
 
+	
+	
 	// Update is called once per frame
 	void FixedUpdate()
 	{
-		_ang = _manager._Time - 90;
+		// Sun Rotation
+		//30,-30,0 = sunrise
+		//90,-30,0 = High noon
+		//180,-30,0 = sunset
+		//-90,-30,0 = Midnight
+		_ang = ((int) (_manager._Time / 3600) % 24) - 15;
 		Quaternion target = Quaternion.Euler(_ang, 0, 0);
-		transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * _smooth);
+//		transform.rotation = Quaternion.Slerp(transform.rotation, target,);
+
+		// Sun Ray
 		Vector3 fwd = transform.TransformDirection(transform.forward);
 		RaycastHit hit;
-		if (Physics.BoxCast(GetComponent<Collider>().bounds.center, transform.localScale, transform.forward, out hit))
+		if (Physics.BoxCast(GetComponent<Collider>().bounds.center, GetComponent<Collider>().bounds.size, fwd, out hit))
 		{
-			Debug.Log(hit.collider.name);
+			if (hit.collider.name == "Panel(Clone)")
+			{
+				OnTriggerStay(hit.collider);
+			}
 		}
 	}
 
-//	private void OnDrawGizmos()
-//	{
-//		Gizmos.color = Color.red;
-//		Gizmos.DrawRay(transform.position,);
-//	}
+
+	private void OnTriggerStay(Collider other)
+	{
+		_timeOn+= (int)Time.deltaTime;
+		_energy = (244 / 1000) * ((_timeOn / 3600) % 24);
+		Debug.Log(other.name);
+		Debug.Log(_energy);
+	}
 }

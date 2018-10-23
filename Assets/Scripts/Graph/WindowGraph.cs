@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using CodeMonkey.Utils;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,13 +10,21 @@ namespace Graph
 	{
 		[SerializeField] private Sprite _circleSprite;
 		private RectTransform _graphContainer;
+		private GameManager _manager;
+		
 
 		// Use this for initialization
 		private void Awake()
 		{
 			_graphContainer = transform.Find("graphContainer").GetComponent<RectTransform>();
 			List<int> valueList = new List<int>(){ 5,98,45,30,22,17,15,13,17,25,37,40,36,33};
-			ShowGraph(valueList);
+			_manager = GameObject.FindGameObjectWithTag("Juego").GetComponent(typeof(GameManager))as GameManager;
+//			ShowGraph(valueList); // Cada hora ejecutar
+		}
+
+		private void FixedUpdate()
+		{
+			ShowGraph();
 		}
 
 		private GameObject CreateCircle(Vector2 anchoredPosition)
@@ -31,16 +40,17 @@ namespace Graph
 			return pointer;
 		}
 
-		private void ShowGraph(List<int> valueList)
+		private void ShowGraph()
 		{
+			List<int> Money = _manager.LogMoney;
 			float graphHeight = _graphContainer.sizeDelta.y;
-			const float yMax = 100f;
+			float yMax = Money.Max();
 			const float xSize = 50f;
 			GameObject lastCircleGameObject = null;
-			for (var i = 0; i < valueList.Count; i++)
+			for (var i = _manager.HoraAct-1; i < _manager.HoraAct; i++)
 			{
 				float xPosition = xSize + i * xSize;
-				float yPosition = valueList[i] / yMax * graphHeight;
+				float yPosition = Money[i] / yMax * graphHeight;
 				CreateCircle(new Vector2(xPosition, yPosition));
 				GameObject circleGameObject = CreateCircle(new Vector2(xPosition, yPosition));
 				if (lastCircleGameObject != null)
@@ -62,7 +72,6 @@ namespace Graph
 			rectTransform.anchorMin = new Vector2(0, 0);
 			rectTransform.anchorMax = new Vector2(0, 0);
 			rectTransform.sizeDelta = new Vector2(distance, 3f);
-//			rectTransform.sizeDelta = new Vector2(100, 3f);
 			rectTransform.anchoredPosition = dotPositionA + dir * distance * .5f;
 			rectTransform.localEulerAngles = new Vector3(0, 0, GetAngleFromVectorFloat(dir));
 		}

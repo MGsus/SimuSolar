@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     private string _scene;
     private int _money = 5000000;
     private float _time = 0;
+    private int _consume=50;
     private int _timeInHh;
 
     // 0 = null ; 1 = running ; 2 = Finished
@@ -25,6 +26,24 @@ public class GameManager : MonoBehaviour
     {
         get { return _money; }
         set { _money = value; }
+    }
+
+    public int _Consume
+    {
+        get { return _consume; }
+        set { _consume = value; }
+    }
+
+    public List<int> LogMoney
+    {
+        get { return logMoney; }
+        set { logMoney = value; }
+    }
+
+    public int HoraAct
+    {
+        get { return horaAct; }
+        set { horaAct = value; }
     }
 
     // Use this for initialization
@@ -53,9 +72,27 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         // Game Time
-        _time += Time.deltaTime*15;
+        _time += Time.deltaTime*1000;
 
         // Money per Hour
-        _timeInHh = (int) (_time / 3600) % 24;
+        MoneyPerHour();
+    }
+
+    private int horaAct = 0;
+    
+    List<int> logMoney = new List<int>();
+    private void MoneyPerHour()
+    {
+        if (HoraAct != ((int) (_time / 3600)))
+        {
+            // Ingreso
+            HoraAct = ((int) (_time / 3600));
+            _money += 150000;
+            // Pérdida (50 = consumo por hora)
+            _money -= 472*50;
+        }
+        LogMoney.Add(_money);
+        
+ 
     }
 }
